@@ -1,0 +1,123 @@
+/* Basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #FFCC66;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Section */
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.section p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Menu Items */
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.menu-category {
+    width: 45%;
+}
+
+.menu-category h4 {
+    font-size: 1.8em;
+    color: #FF6633;
+    margin-bottom: 10px;
+}
+
+.menu-category ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.menu-category ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #DDD;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
